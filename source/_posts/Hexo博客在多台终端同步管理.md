@@ -2,22 +2,18 @@
 title: Hexo博客在多台终端同步管理
 date: 2020-12-15 09:08:06
 tags: 
-    -Hexo
-    -Nodejs
-    -Git
-    -Markdown语法
+    - Hexo
+    - Nodejs
+    - Git
+    - Markdown语法
 categories:
-    -技术文档
+    - 技术文档
 
 ---
 
 ## Hexo+Github博客在多台终端同步管理
 
-最近这两天研究Hexo制作个人博客，在不同的电脑同步博客遇到了困难，查找了很多博文和官网的文档，最终找到了解决的办法，此方法利用Git管理Hexo产生的文件，实现在不同的电脑上同步（Github）所需的文件，也可以正常的在不同的Hexo环境里进行相应操作，只要在做完之后同步到Github的仓库里即可。下面具体来说说：
-
-## Hexo环境搭建
-
-这里不赘述直接给出安装方法（命令）
+最近这两天研究Hexo制作个人博客，发现自己放了好长时间的博客系统在一次环境系统升级过后崩溃了，然后决定从零开始。在配置过程中又遇到了这样的问题，在不同的电脑终端同步博客遇到了困难，不能实现要求，然后查找了很多博文和官网的文档，最终找到了解决的办法，在此记录下来以便能帮助有需要的后来人。此方法利用Git管理Hexo产生的文件，实现在不同的电脑上同步（Github）所需的文件，也可以正常的在不同的Hexo环境里进行相应操作，只要在做完之后同步到Github的仓库里即可。下面具体来说说：
 
 ## 搭建node.js环境
 
@@ -43,9 +39,9 @@ categories:
 
     sudo pacman -S git
 
-## 安装Hexo
+## 安装Hexo（Hexo环境搭建）
 
-所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。
+这里不赘述直接给出安装方法（命令）所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。
 
     $npm install -g hexo-cli
 
@@ -56,7 +52,7 @@ categories:
     $npm install
     $npm install hexo-deployer-git --save
 
-新建完成后，指定文件夹的目录如下：
+新建完成后，指定文件夹<Blog-folder>的目录如下：
 
     .
     ├── _config.yml
