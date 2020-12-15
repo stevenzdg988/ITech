@@ -4,18 +4,18 @@
 
 # Site
 title: GeekBear
-subtitle: 'ITech'
-description: 'ITech'
+subtitle: '术业杂谈'
+description: '术亦哲也，浸之乐也'
 keywords:
-author: GeekBear RRE.
-language: zh_Hans
+author: RRE. GeekBear 
+language: zh_CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url:  https://frstlis.github.io/ITech
 root: /ITech
-permalink: :title/:year/:month/:day/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
