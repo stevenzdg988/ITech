@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GeekBear</title>
+  <icon>https://frstlis.github.io/ITech/icon.png</icon>
+  <subtitle>ITech</subtitle>
+  <link href="https://frstlis.github.io/ITech/atom.xml" rel="self"/>
+  
+  <link href="https://frstlis.github.io/ITech/"/>
+  <updated>2020-12-14T15:36:33.228Z</updated>
+  <id>https://frstlis.github.io/ITech/</id>
+  
+  <author>
+    <name>GeekBear RRE.</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ok</title>
+    <link href="https://frstlis.github.io/ITech/ok/2020/12/14/"/>
+    <id>https://frstlis.github.io/ITech/ok/2020/12/14/</id>
+    <published>2020-12-14T15:29:48.000Z</published>
+    <updated>2020-12-14T15:36:33.228Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>win-test</title>
+    <link href="https://frstlis.github.io/ITech/win-test/2020/12/14/"/>
+    <id>https://frstlis.github.io/ITech/win-test/2020/12/14/</id>
+    <published>2020-12-14T15:23:33.000Z</published>
+    <updated>2020-12-14T15:52:01.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="https://frstlis.github.io/ITech/Test/2020/12/14/"/>
+    <id>https://frstlis.github.io/ITech/Test/2020/12/14/</id>
+    <published>2020-12-14T15:07:40.000Z</published>
+    <updated>2020-12-14T15:36:33.228Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Pygame-In-Anaconda</title>
+    <link href="https://frstlis.github.io/ITech/Pygame-In-Anaconda/2020/12/13/"/>
+    <id>https://frstlis.github.io/ITech/Pygame-In-Anaconda/2020/12/13/</id>
+    <published>2020-12-13T14:10:40.000Z</published>
+    <updated>2020-12-13T14:10:40.469Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://frstlis.github.io/ITech/hello-world/2020/12/13/"/>
+    <id>https://frstlis.github.io/ITech/hello-world/2020/12/13/</id>
+    <published>2020-12-13T11:34:40.514Z</published>
+    <updated>2020-12-13T11:34:40.514Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
