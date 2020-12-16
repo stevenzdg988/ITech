@@ -116,15 +116,33 @@ Douban：几乎所有公司的业务都是通过 **Python** 开发的。
 接下来键入 ```conda --help```，显示 **Anaconda** 管理 **Python** 应用模块的命令提示信息。
     ![conda帮助](https://img-blog.csdnimg.cn/20201216103244327.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
 常用的同步更新软件包（update）、安装软件包（install）。不管是更新还是安装，都需要到软件官网去获取软件信息，由于某种原因这些操作都是非常困难的，因此需要对软件默认的配置修改成国内的快速镜像地址，这样才能高效。
-在当前用户的根目录下创建 ```.condarc``` 文件，因为在 Windows系统下无法创建以"."开头的文件，因此需要利用命令行进项操作，让其生成 ```condarc``` 文件，然后利用文本编辑软件打开，编辑如下内容后保存退出。
-    ![.condarc文件创建](https://img-blog.csdnimg.cn/20201216110459956.png#pic_center)
+在当前用户的根目录下创建 ``` .condarc ``` 文件，因为在 Windows系统下无法创建以"."开头的文件，因此需要利用命令行进项操作，让其生成 ``` .condarc ``` 文件，然后利用文本编辑软件打开，编辑如下内容后保存退出。
+    ![.condarc文件生成](https://img-blog.csdnimg.cn/20201216110459956.png#pic_center)
     ![.condarc文件位置](https://img-blog.csdnimg.cn/20201216111056674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
     ![.condarc文件配置](https://img-blog.csdnimg.cn/20201216110509888.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
-再利用 ```conda``` 命令获取软件的过程中可能会用到 ```pip``` 进行一些下载，因此也需要将 ```pip``` 配置成国内的快速镜像地址，具体做法是，在当前用户根目录下创建 ```pip``` 文件夹，并且在此文件夹内创建 ```pip.ini``` 文件，利用文本编辑器编辑如下图内容到此文件后保存退出。
+再利用 ```conda``` 命令获取软件的过程中可能会用到 ``` pip ``` 进行一些下载，因此也需要将 ``` pip ``` 配置成国内的快速镜像地址，具体做法是，在当前用户根目录下创建 ``` pip ``` 文件夹，并且在此文件夹内创建 ``` pip.ini ``` 文件，利用文本编辑器编辑如下图内容到此文件后保存退出。
     ![pip配置文件位置](https://img-blog.csdnimg.cn/20201216111319848.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
     ![pip配置文件创建](https://img-blog.csdnimg.cn/20201216110653435.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
 
+## Linux系统下的安装
 
+本文以 Manjaro 操作系统为例配置Anaconda。
+首先配置更新源， ``` code /etc/pacman.conf ``` 在文档末尾加上两行，配置 **archlinuxcn** 更新源，如下图：
+    ![pacman.conf配置archlinuxcn](https://img-blog.csdnimg.cn/20201216114847736.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
+然后执行 ``` sudo pacman -Syy ``` 和 ``` sudo pacman -Syu ``` 进行系统镜像数据库拉取和更新，然后安装 **archlinuxcn** KEY, ```sudo pacman -S archlinuxcn-keyring``` ，如下图：
+    ![archlinux-keyring安装](https://img-blog.csdnimg.cn/20201216120110837.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
+接下来就开始安装 **Anaconda** 了， ``` sudo pacman -S anaconda ``` ,输入“y”，进行安装，一路回车，遇到选“yes”还是“no”的时输入“yes”，然后回车即可，在这里就不截图了。一壶茶过后就可以了。
+    ![anaconda安装](https://img-blog.csdnimg.cn/20201216120626439.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
+然后配置更新镜像源，跟 Windows 一样在 当前用户的根目录下 ``` /home/eric/.condarc ```, **pip** 镜像配置文件需要利用命令： ``` mkdir -p /home/eric/.pip ``` ``` touch /home/eric/.pip/pip.conf ``` 创建。然后通过命令 ```code /home/eric/.condarc ``` 和 ``` code /home/eric/.pip/pip.conf ``` 分别打开这两个文件将在本文 Windows部分提及的内容编辑进文件保存退出就OK了（不提供截图了）。
+Linux下启动 **Anaconda** 如下图：
+    ![anaconda启动](https://img-blog.csdnimg.cn/20201216122739617.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70#pic_center)
+接下来的操作和在Windows下操作无异，祝好运吧。
 
+# VSCode
 
-# VSCode  
+Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目：一个运行于 Mac OS X、Windows和 Linux 之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。该编辑器支持多种语言和文件格式的编写，截止2019年9月，已经支持了如下37种语言或文件：F#、HandleBars、Markdown、Python、Java、PHP、Haxe、Ruby、Sass、Rust、PowerShell、Groovy、R、Makefile、HTML、JSON、TypeScript、Batch、Visual Basic、Swift、Less、SQL、XML、Lua、Go、C++、Ini、Razor、Clojure、C#、Objective-C、CSS、JavaScript、Perl、Coffee Script、Dockerfile。
+
+到被誉为神级编辑器的[VSCode下载地址](https://code.visualstudio.com/)下载对应平台的源码包或二进制安装文件安装即可，关于其中的操作可以到其官网查阅文档，这里不做赘述了。
+
+好啦，下面就来更新一下你的大水蚺吧！！
+若有新的应用，那就依照前面所述 ``` conda install xxx ``` 吧，接下来你就在 **Python** 的海洋里遨游吧。
