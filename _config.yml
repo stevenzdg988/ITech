@@ -119,9 +119,9 @@ feed:
   template:
 
 sitemap:
-    path: sitemap.xml
-    tag: false
-    category: false
+  path: sitemap.xml
+  tag: false
+  category: false
 
 search:
   path: search.xml   #在public目录的根目录下生成search.xml 文件，用于存储网站文章的文字数据.

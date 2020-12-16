@@ -208,7 +208,7 @@
     </div>
 
     {#####################}
-    {### END POST BODY ###}
+    {### END POST BODY 242-{{ tag_indicate }} ###}
     {#####################}
 
     {%- if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
@@ -239,7 +239,7 @@
           {%- endif %}
           <div class="post-tags">
             {%- for tag in post.tags.toArray() %}
-              <a href="{{ url_for(tag.path) }}" rel="tag">{{ tag_indicate }} {{ tag.name }}</a>
+              <a href="{{ url_for(tag.path) }}" rel="tag"><i class="fa fa-tag"></i>{{ tag.name }}</a>
             {%- endfor %}
           </div>
         {%- endif %}
