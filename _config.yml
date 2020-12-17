@@ -6,9 +6,9 @@
 title: GeekBear
 subtitle: '术业杂谈'
 description: '术亦哲也，浸之乐也'
-keywords:
+keywords: Hexo, Nodejs, Git
 author: RRE. GeekBear 
-language: zh_Hans
+language: zh-CN #zh_Hans
 timezone: 'Asia/Shanghai'
 
 # URL
