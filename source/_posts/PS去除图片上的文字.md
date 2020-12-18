@@ -8,7 +8,7 @@ categories:
 ---
 
 研究操作系统原理未必不需要Photoshop处理图片，碎片化的记录一下吧，也是当做练练文笔了。今天研究H神的时候做一个博文的logo时，需要一张图片，从网上找到了一张图片，发现有网站的水印logo，要去掉它，操作如下：
-
+<!--more-->
 看图操作吧，打开要编辑的图片，右上角有 *7788.com* 水印，
 
 ![open](https://img-blog.csdnimg.cn/20201218085937576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70)
