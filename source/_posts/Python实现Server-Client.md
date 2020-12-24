@@ -17,6 +17,8 @@ categories:
 
 代码如下：
 
+```
+
     from http.server import BaseHTTPRequestHandler,HTTPServer
 
     class RequestHandler(BaseHTTPRequestHandler):
@@ -62,6 +64,7 @@ categories:
         serverAddress = ('', 8080)
         server = HTTPServer(serverAddress, RequestHandler)
         server.serve_forever()
+```
 
 在命令提示符窗口执行 *python server.py* ，然后打开浏览器，地址栏输入 *http://127.0.0.1:8080* ，浏览器中显示预先设定的显示内容，同时在命令提示符窗口显示访问成功的信息。如下图：
 
@@ -72,7 +75,7 @@ categories:
 ## 实现服务器客户端实时交互
 
 服务端代码：
-
+```
     import socket
     import sys
     import time
@@ -104,11 +107,11 @@ categories:
             clientsocket.send(msg1.encode('utf-8'))
         clientsocket.close()
     serversocket.closel()
-
+```
 以 *server-t.py*保存。
 
 客户端代码：
-
+```
     import socket
     import sys
 
@@ -127,7 +130,7 @@ categories:
             break
         print(msg.decode('utf-8'))
     s.close()
-
+```
 以 *client-t.py* 保存。
 
 分别启动两个文件所在位置的命令提示符，执行 *python server-t.py*，*python client-t.py* ，此时两个命令提示符窗口如下图，你可以在两个窗口中分别输入信息然后回车就会发送到对应的交互端，类似于一个chat了！！！挺有意思，要不你也来试试？！:)

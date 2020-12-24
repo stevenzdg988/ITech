@@ -14,7 +14,7 @@ categories:
 ## 模拟利用浏览器访问服务器
 
 代码如下(Server-Browser)：
-
+```
     #include <stdio.h>
     #include <stdlib.h>
     #include <string.h>
@@ -203,7 +203,7 @@ categories:
         close(fileHandler);
         return 0;
     }
-
+```
 以上代码存储为server-browser.c，利用VSCode或命令行（**gcc server-broser.c -o hostt.exe**)进行编译生成可执行文件，Windows下为hostt.exe，打开系统下的命令提示符 *cmd* 将目录切换到程序所在目录，键入 *hostt.exe* 回车执行在窗口显示如下图所示：
 
 ![server-browser1](https://img-blog.csdnimg.cn/20201220152213579.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0ZXZlbl96ZGc5ODg=,size_16,color_FFFFFF,t_70)
@@ -217,7 +217,7 @@ categories:
 ## 模拟客户端与服务端进行交互
 
 首先创建服务端代码：
-
+```
     #include <stdio.h>
     #include <stdlib.h>
     #include <string.h>
@@ -314,9 +314,9 @@ categories:
         printf("程序结束\n");
         return 0;
     }
-
+```
 然后创建客户端程序：
-
+```
     #include <stdio.h>
     #include <string.h>
     #include <stdlib.h>
@@ -376,7 +376,7 @@ categories:
         printf("程序结束\n");
         return 0;
     }
-
+```
 接下来将两个程序进行编译，分别生成 *server.exe* 和 *client.exe* ，分别打开2个命令提示符窗口，在其中一个执行 *server.exe* 在另一个执行 *client.exe* ，在执行 *client.exe*的窗口中输入信息，回车后会在执行服务端程序的窗口显示在 *client.exe* 窗口中输入的内容，进而实现了模拟服务器端与客户机端的信息交互过程。
 
 如下图所示：
