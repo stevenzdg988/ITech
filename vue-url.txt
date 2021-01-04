@@ -1,9 +1,3 @@
 https://cn.vuejs.org
-<<<<<<< HEAD
 
 http://wiki.0xffffff.org/category/hurlex/
-=======
-
-
-http://wiki.0xffffff.org/
->>>>>>> 5ad2ab5fadf58e8ffcba65599d17fe8b50a7f49a
