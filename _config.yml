@@ -133,5 +133,5 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:frstlis/ITech.git,main
+  repository: git@stevenzdg988.github.com:stevenzdg988/ITech.git,main
   branch: main
