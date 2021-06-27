@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GeekBear</title>
+  <icon>https://frstlis.github.io/ITech/icon.png</icon>
+  <subtitle>术业杂谈</subtitle>
+  <link href="https://frstlis.github.io/ITech/atom.xml" rel="self"/>
+  
+  <link href="https://frstlis.github.io/ITech/"/>
+  <updated>2021-06-27T12:52:04.794Z</updated>
+  <id>https://frstlis.github.io/ITech/</id>
+  
+  <author>
+    <name>RRE. GeekBear</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ITech GitHub Blog ReadMe</title>
+    <link href="https://frstlis.github.io/ITech/2021/06/27/ITech-GitHub-Blog-ReadMe/"/>
+    <id>https://frstlis.github.io/ITech/2021/06/27/ITech-GitHub-Blog-ReadMe/</id>
+    <published>2021-06-27T11:42:59.000Z</published>
+    <updated>2021-06-27T12:52:04.794Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;此篇博客持续更新中。。。&lt;/p&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/ITech/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/ITech/js/spoiler.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲杂人等" scheme="https://frstlis.github.io/ITech/categories/%E9%97%B2%E6%9D%82%E4%BA%BA%E7%AD%89/"/>
+    
+    
+    <category term="Hexo" scheme="https://frstlis.github.io/ITech/tags/Hexo/"/>
+    
+    <category term="Nodejs" scheme="https://frstlis.github.io/ITech/tags/Nodejs/"/>
+    
+    <category term="Linux" scheme="https://frstlis.github.io/ITech/tags/Linux/"/>
+    
+  </entry>
+  
+</feed>

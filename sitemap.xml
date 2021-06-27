@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://frstlis.github.io/ITech/2021/06/27/ITech-GitHub-Blog-ReadMe/</loc>
+    
+    <lastmod>2021-06-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://frstlis.github.io/ITech/about/index.html</loc>
     
     <lastmod>2021-04-11</lastmod>
@@ -9,14 +16,14 @@
   </url>
   
   <url>
-    <loc>https://frstlis.github.io/ITech/tags/index.html</loc>
+    <loc>https://frstlis.github.io/ITech/categories/index.html</loc>
     
     <lastmod>2021-04-11</lastmod>
     
   </url>
   
   <url>
-    <loc>https://frstlis.github.io/ITech/categories/index.html</loc>
+    <loc>https://frstlis.github.io/ITech/tags/index.html</loc>
     
     <lastmod>2021-04-11</lastmod>
     
@@ -31,6 +38,34 @@
   </url>
 
   
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Hexo/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Nodejs/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Linux/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/categories/%E9%97%B2%E6%9D%82%E4%BA%BA%E7%AD%89/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
