@@ -6,7 +6,7 @@ tags:
     - Server-Client
     - Server-Browser
 categories:
-    - C语言
+    - 技术文档
 ---
 
 利用C语言实现客户端浏览器访问服务器和服务器与客户端交互两个场景。

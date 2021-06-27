@@ -5,7 +5,7 @@ tags:
     - Python
     - 运算符
 categories:
-    - 技术文档
+    - Python
 ---
 
 好久没来写写了，写写python的基础--运算符，回顾也好巩固也好，还是需要注重基础的。
