@@ -59,6 +59,76 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Python/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Java/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/C-C/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Shell/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/MySQL/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Php/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Perl/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/JS/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Git/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://frstlis.github.io/ITech/tags/Go/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>

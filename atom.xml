@@ -6,7 +6,7 @@
   <link href="https://frstlis.github.io/ITech/atom.xml" rel="self"/>
   
   <link href="https://frstlis.github.io/ITech/"/>
-  <updated>2021-06-27T12:52:04.794Z</updated>
+  <updated>2021-06-27T13:13:19.360Z</updated>
   <id>https://frstlis.github.io/ITech/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://frstlis.github.io/ITech/2021/06/27/ITech-GitHub-Blog-ReadMe/"/>
     <id>https://frstlis.github.io/ITech/2021/06/27/ITech-GitHub-Blog-ReadMe/</id>
     <published>2021-06-27T11:42:59.000Z</published>
-    <updated>2021-06-27T12:52:04.794Z</updated>
+    <updated>2021-06-27T13:13:19.360Z</updated>
     
     
       
@@ -43,6 +43,26 @@
     <category term="Nodejs" scheme="https://frstlis.github.io/ITech/tags/Nodejs/"/>
     
     <category term="Linux" scheme="https://frstlis.github.io/ITech/tags/Linux/"/>
+    
+    <category term="Python" scheme="https://frstlis.github.io/ITech/tags/Python/"/>
+    
+    <category term="Java" scheme="https://frstlis.github.io/ITech/tags/Java/"/>
+    
+    <category term="C/C++" scheme="https://frstlis.github.io/ITech/tags/C-C/"/>
+    
+    <category term="Shell" scheme="https://frstlis.github.io/ITech/tags/Shell/"/>
+    
+    <category term="MySQL" scheme="https://frstlis.github.io/ITech/tags/MySQL/"/>
+    
+    <category term="Php" scheme="https://frstlis.github.io/ITech/tags/Php/"/>
+    
+    <category term="Perl" scheme="https://frstlis.github.io/ITech/tags/Perl/"/>
+    
+    <category term="JS" scheme="https://frstlis.github.io/ITech/tags/JS/"/>
+    
+    <category term="Git" scheme="https://frstlis.github.io/ITech/tags/Git/"/>
+    
+    <category term="Go" scheme="https://frstlis.github.io/ITech/tags/Go/"/>
     
   </entry>
   
