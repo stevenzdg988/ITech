@@ -6,7 +6,7 @@
   <link href="https://frstlis.github.io/ITech/atom.xml" rel="self"/>
   
   <link href="https://frstlis.github.io/ITech/"/>
-  <updated>2021-06-29T12:23:15.854Z</updated>
+  <updated>2021-10-06T14:03:09.815Z</updated>
   <id>https://frstlis.github.io/ITech/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test Hexo System</title>
+    <link href="https://frstlis.github.io/ITech/2021/10/06/Test-Hexo-System/"/>
+    <id>https://frstlis.github.io/ITech/2021/10/06/Test-Hexo-System/</id>
+    <published>2021-10-06T14:00:53.000Z</published>
+    <updated>2021-10-06T14:03:09.815Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;纯测试！：P&lt;/p&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/ITech/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/ITech/js/spoiler.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://frstlis.github.io/ITech/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://frstlis.github.io/ITech/tags/Hexo/"/>
+    
+    <category term="Nodejs" scheme="https://frstlis.github.io/ITech/tags/Nodejs/"/>
+    
+    <category term="npm" scheme="https://frstlis.github.io/ITech/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>ITech GitHub Blog ReadMe</title>
